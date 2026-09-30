@@ -1,22 +1,23 @@
-# Hi, I’m Richitha Rekula
+# Richitha Rekula
 
-### Building practical projects with code
-
-I’m a student exploring web development, text analysis and image processing through hands-on projects. My work spans Python, JavaScript and MATLAB.
+I’m a graduate student at Arizona State University working on data science and software projects. My interests include machine learning, text analysis, and building useful web applications.
 
 ## Selected projects
 
-| Project | Focus | Technology |
+| Project | What it does | Technologies |
 | --- | --- | --- |
-| [Smart Parking](https://github.com/richithareddyy/Smart-Parking-App) | Parking occupancy estimation, custom space layouts and CSV reports | MATLAB |
-| [Loc8r](https://github.com/richithareddyy/WPM-loc8r) | A location-review web application developed for my Web Programming course | JavaScript · Express · Pug · Bootstrap |
-| [Research Paper Summarizer](https://github.com/richithareddyy/Researchpaper_summerizer) | Research paper summarization project | Python |
-| [Zoom Meeting Insights](https://github.com/richithareddyy/zoom-meeting-insights) | Meeting insights project | Python |
+| [Support Ticket Triage](https://github.com/richithareddyy/ticket-triage) | Predicts ticket priority and resolution time, with explanations for individual predictions. Trained on synthetic support data. | Python, XGBoost, SHAP, Flask, Streamlit |
+| [Research Paper Summarizer](https://github.com/richithareddyy/Researchpaper_summerizer) | Summarizes and compares papers, extracts figures and tables, and exports research notes. | Python, Streamlit, Gemini, PyMuPDF |
+| [Meeting Insights](https://github.com/richithareddyy/zoom-meeting-insights) | Turns uploaded transcripts into action items, decisions, summaries, and open questions. | Python, Streamlit, Gemini |
+| [Smart Parking](https://github.com/richithareddyy/Smart-Parking-App) | Estimates parking occupancy by comparing images with an empty reference and a marked layout. | MATLAB |
+| [Loc8r](https://github.com/richithareddyy/WPM-loc8r) | Demonstrates location listings and review pages in a Web Programming coursework project. | JavaScript, Express, Pug, Bootstrap |
 
-## What you’ll find here
+## Areas of work
 
-Coursework and practical applications, with an emphasis on making projects easier to use, understand and maintain. I’m revisiting earlier work to improve its structure, documentation and reliability.
+- **Data and machine learning:** feature engineering, classification, regression, and model explanations.
+- **Text and documents:** research papers, meeting transcripts, and support tickets.
+- **Applications:** Python services, interactive interfaces, and server-rendered JavaScript websites.
 
----
+Each project README explains its scope, setup, and limitations.
 
-[Explore my repositories](https://github.com/richithareddyy?tab=repositories)
+[Browse all repositories](https://github.com/richithareddyy?tab=repositories)
