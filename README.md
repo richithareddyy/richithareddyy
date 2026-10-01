@@ -6,16 +6,17 @@ I’m a graduate student at Arizona State University working on data science and
 
 | Project | What it does | Technologies |
 | --- | --- | --- |
+| [Reddit Data Pipeline](https://github.com/richithareddyy/reddit-data-pipeline) | Loads Reddit-format archives into PostgreSQL with validation, deduplication, quality checks, and run reports. | Python, PostgreSQL, SQL, Docker |
 | [StreamBox OTT Platform](https://github.com/richithareddyy/ott-platform) | Provides catalog browsing, watchlists, video playback, reviews, and an admin interface. | Node.js, Express, MongoDB, JavaScript |
 | [Support Ticket Triage](https://github.com/richithareddyy/ticket-triage) | Predicts ticket priority and resolution time, with explanations for individual predictions. Trained on synthetic support data. | Python, XGBoost, SHAP, Flask, Streamlit |
-| [Research Paper Summarizer](https://github.com/richithareddyy/Researchpaper_summerizer) | Summarizes and compares papers, extracts figures and tables, and exports research notes. | Python, Streamlit, Gemini, PyMuPDF |
+| [Research Paper Summarizer](https://github.com/richithareddyy/Researchpaper_summerizer) | Summarizes and compares papers, supports questions and study aids, and exports research notes. | Python, Streamlit, Gemini, PyMuPDF |
 | [Meeting Insights](https://github.com/richithareddyy/zoom-meeting-insights) | Turns uploaded transcripts into action items, decisions, summaries, and open questions. | Python, Streamlit, Gemini |
 | [Smart Parking](https://github.com/richithareddyy/Smart-Parking-App) | Estimates parking occupancy by comparing images with an empty reference and a marked layout. | MATLAB |
 | [Loc8r](https://github.com/richithareddyy/WPM-loc8r) | Demonstrates location listings and review pages in a Web Programming coursework project. | JavaScript, Express, Pug, Bootstrap |
 
 ## Areas of work
 
-- **Data and machine learning:** feature engineering, classification, regression, and model explanations.
+- **Data and machine learning:** ETL pipelines, data quality, feature engineering, classification, and model explanations.
 - **Text and documents:** research papers, meeting transcripts, and support tickets.
 - **Applications:** Python services, interactive interfaces, and server-rendered JavaScript websites.
 
