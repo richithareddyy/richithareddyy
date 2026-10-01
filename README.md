@@ -6,6 +6,7 @@ I’m a graduate student at Arizona State University working on data science and
 
 | Project | What it does | Technologies |
 | --- | --- | --- |
+| [StreamBox OTT Platform](https://github.com/richithareddyy/ott-platform) | Provides catalog browsing, watchlists, video playback, reviews, and an admin interface. | Node.js, Express, MongoDB, JavaScript |
 | [Support Ticket Triage](https://github.com/richithareddyy/ticket-triage) | Predicts ticket priority and resolution time, with explanations for individual predictions. Trained on synthetic support data. | Python, XGBoost, SHAP, Flask, Streamlit |
 | [Research Paper Summarizer](https://github.com/richithareddyy/Researchpaper_summerizer) | Summarizes and compares papers, extracts figures and tables, and exports research notes. | Python, Streamlit, Gemini, PyMuPDF |
 | [Meeting Insights](https://github.com/richithareddyy/zoom-meeting-insights) | Turns uploaded transcripts into action items, decisions, summaries, and open questions. | Python, Streamlit, Gemini |
