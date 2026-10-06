@@ -1,11 +1,12 @@
 # Richitha Rekula
 
-I’m a graduate student at Arizona State University working on data science and software projects. My interests include machine learning, text analysis, and building useful web applications.
+I’m a graduate student at Arizona State University working on data science and software projects. My projects cover data pipelines, machine learning, developer tools, and web applications.
 
 ## Selected projects
 
 | Project | What it does | Technologies |
 | --- | --- | --- |
+| [CodeAtlas](https://github.com/richithareddyy/CodeAtlas) | Maps Rust code dependencies and explores change impact and test selection with source-level evidence. | Rust, Neo4j, GraphQL, SvelteKit, TypeScript |
 | [Reddit Data Pipeline](https://github.com/richithareddyy/reddit-data-pipeline) | Loads Reddit-format archives into PostgreSQL with validation, deduplication, quality checks, and run reports. | Python, PostgreSQL, SQL, Docker |
 | [StreamBox OTT Platform](https://github.com/richithareddyy/ott-platform) | Provides catalog browsing, watchlists, video playback, reviews, and an admin interface. | Node.js, Express, MongoDB, JavaScript |
 | [Support Ticket Triage](https://github.com/richithareddyy/ticket-triage) | Predicts ticket priority and resolution time, with explanations for individual predictions. Trained on synthetic support data. | Python, XGBoost, SHAP, Flask, Streamlit |
@@ -17,6 +18,7 @@ I’m a graduate student at Arizona State University working on data science and
 ## Areas of work
 
 - **Data and machine learning:** ETL pipelines, data quality, feature engineering, classification, and model explanations.
+- **Developer tools:** static analysis, dependency graphs, and change-impact exploration.
 - **Text and documents:** research papers, meeting transcripts, and support tickets.
 - **Applications:** Python services, interactive interfaces, and server-rendered JavaScript websites.
 
