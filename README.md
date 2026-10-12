@@ -1,27 +1,17 @@
 # Richitha Rekula
 
-I’m a graduate student at Arizona State University working on data science and software projects. My projects cover data pipelines, machine learning, developer tools, and web applications.
+I’m an M.S. student in Data Science, Analytics and Engineering at Arizona State University. I build tools for working with code, documents, and data, and study how to evaluate the models behind them.
 
-## Selected projects
+My work spans applied AI, machine learning, data science, and software engineering. A few good places to start:
 
-| Project | What it does | Technologies |
-| --- | --- | --- |
-| [CodeAtlas](https://github.com/richithareddyy/CodeAtlas) | Maps Rust code dependencies and explores change impact and test selection with source-level evidence. | Rust, Neo4j, GraphQL, SvelteKit, TypeScript |
-| [Reddit Data Pipeline](https://github.com/richithareddyy/reddit-data-pipeline) | Loads Reddit-format archives into PostgreSQL with validation, deduplication, quality checks, and run reports. | Python, PostgreSQL, SQL, Docker |
-| [StreamBox OTT Platform](https://github.com/richithareddyy/ott-platform) | Provides catalog browsing, watchlists, video playback, reviews, and an admin interface. | Node.js, Express, MongoDB, JavaScript |
-| [Support Ticket Triage](https://github.com/richithareddyy/ticket-triage) | Predicts ticket priority and resolution time, with explanations for individual predictions. Trained on synthetic support data. | Python, XGBoost, SHAP, Flask, Streamlit |
-| [Research Paper Summarizer](https://github.com/richithareddyy/Researchpaper_summerizer) | Summarizes and compares papers, supports questions and study aids, and exports research notes. | Python, Streamlit, Gemini, PyMuPDF |
-| [Meeting Insights](https://github.com/richithareddyy/zoom-meeting-insights) | Turns uploaded transcripts into action items, decisions, summaries, and open questions. | Python, Streamlit, Gemini |
-| [Smart Parking](https://github.com/richithareddyy/Smart-Parking-App) | Estimates parking occupancy by comparing images with an empty reference and a marked layout. | MATLAB |
-| [Loc8r](https://github.com/richithareddyy/WPM-loc8r) | Demonstrates location listings and review pages in a Web Programming coursework project. | JavaScript, Express, Pug, Bootstrap |
+- **[CodeAtlas](https://github.com/richithareddyy/CodeAtlas)** — A Rust code-analysis tool that traces change impact through dependency graphs and links each result to source lines. Includes a GraphQL API, a SvelteKit workspace, and optional local-model explanations checked against graph evidence.
+- **[GridCast](https://github.com/richithareddyy/GridCast)** — A study of next-day electricity demand in New England. Compares seasonal baselines, LightGBM, and an LSTM with chronological backtesting, then examines prediction intervals and errors during extreme demand.
+- **[Zoom Lens](https://github.com/richithareddyy/ZoomLens)** — A Zoom screen-share assistant with describe, explain, and follow-up modes. Combines H.264 frame buffering, image decoding, a vision-model API, and replies scoped to each WebSocket session. Currently a development prototype.
+- **[Support Ticket Triage](https://github.com/richithareddyy/ticket-triage)** — Priority classification and resolution-time prediction, served through Flask and Streamlit. Uses out-of-fold text scores, XGBoost, and SHAP; training and evaluation use synthetic tickets.
+- **[Reddit Data Pipeline](https://github.com/richithareddyy/reddit-data-pipeline)** — A Python/PostgreSQL archive loader with streaming COPY, set-based merges, rejection records, and checks for reruns and interrupted loads.
 
-## Areas of work
+For causal inference, **[CauseWay](https://github.com/richithareddyy/CauseWay)** compares a randomized e-mail experiment with deliberately confounded samples. For application engineering, **[StreamBox](https://github.com/richithareddyy/ott-platform)** explores catalog search, video range requests, and concurrent updates to watchlists, playback progress, and reviews.
 
-- **Data and machine learning:** ETL pipelines, data quality, feature engineering, classification, and model explanations.
-- **Developer tools:** static analysis, dependency graphs, and change-impact exploration.
-- **Text and documents:** research papers, meeting transcripts, and support tickets.
-- **Applications:** Python services, interactive interfaces, and server-rendered JavaScript websites.
+The READMEs include setup instructions, technical decisions, and the limits of each project. Smaller experiments and coursework are in the [full repository list](https://github.com/richithareddyy?tab=repositories).
 
-Each project README explains its scope, setup, and limitations.
-
-[Browse all repositories](https://github.com/richithareddyy?tab=repositories)
+[Portfolio](https://richitharekula.vercel.app) · [LinkedIn](https://www.linkedin.com/in/richitha-rekula)
