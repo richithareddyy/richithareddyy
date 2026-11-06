@@ -6,7 +6,7 @@ I'm an M.S. student in Data Science, Analytics and Engineering at Arizona State 
 
 ## Applied AI and software
 
-- **[AgentVisa](https://github.com/richithareddyy/AgentVisa)**: an authorization gateway for AI agents. A human issues a temporary mission contract, and every action passes exact policy checks and an intent check before a tool runs, with shared budgets across delegated agents and approvals bound to one exact action. [Try the sandbox](https://agentvisa.onrender.com). Python, FastAPI, SQLite.
+- **[AgentVisa](https://github.com/richithareddyy/AgentVisa)**: an authorization gateway prototype for AI agents, with temporary mission contracts, shared budgets across delegated agents, and approvals bound to an exact action. Tool effects are simulated; the intent check is currently limited to monitor procurement. [Try the sandbox](https://agentvisa.onrender.com). Python, FastAPI, SQLite.
 - **[ZoomLens](https://github.com/richithareddyy/ZoomLens)**: ask questions about a shared screen from a private panel inside a Zoom meeting, with opt-in accessibility modes. My fellowship project and still a development prototype. Node.js, WebSockets, FFmpeg, a vision-model API.
 - **[CodeAtlas](https://github.com/richithareddyy/CodeAtlas)**: traces what a change in a Rust repository might affect, down to code and tests, with source links behind each connection. Uncertain calls stay labeled instead of guessed, and test selection is scored against real test runs. Rust, tree-sitter, Neo4j, GraphQL, SvelteKit.
 
