@@ -17,6 +17,6 @@
 
 ---
 
-I like building things I can look inside and understand: tools that trace code changes, check an agent’s permissions, or make a shared screen easier to follow. My data projects explore forecasting and causal inference, including where the methods fall short.
+I’m interested in applied AI, machine learning, and software engineering. These are some of the projects I’ve been working on.
 
 🌱 A few of those projects are pinned below. Their READMEs cover how they work, what I tested, and what’s still unfinished.
