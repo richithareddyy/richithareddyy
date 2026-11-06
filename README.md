@@ -1,21 +1,23 @@
-# Richitha Rekula
+# Hi, I’m Richitha 🌷
 
-I'm an M.S. student in Data Science, Analytics and Engineering at Arizona State University, graduating May 2027, and a Zoom Fellow at ASU Next Lab. I work on applied AI and ML, and I spend most of my time on what happens around the model: bad data, wrong answers, and finding out where something breaks.
+I’m an M.S. student in **Data Science, Analytics and Engineering at Arizona State University** and a **Zoom Fellow at ASU Next Lab**, graduating in May 2027.
+
+I build tools that connect models to real software: checking what an agent is allowed to do, helping someone follow a shared screen, or tracing what a code change might break. I also work on forecasting and causal inference, with as much attention to the evaluation as the model.
 
 [Portfolio](https://richitharekula.vercel.app) · [LinkedIn](https://www.linkedin.com/in/richitha-rekula) · [Résumé](https://richitharekula.vercel.app/Richitha_Rekula_Resume.pdf)
 
-## Applied AI and software
+## ✨ Applied AI and software
 
-- **[AgentVisa](https://github.com/richithareddyy/AgentVisa)**: an authorization gateway prototype for AI agents, with temporary mission contracts, shared budgets across delegated agents, and approvals bound to an exact action. Tool effects are simulated; the intent check is currently limited to monitor procurement. [Try the sandbox](https://agentvisa.onrender.com). Python, FastAPI, SQLite.
-- **[ZoomLens](https://github.com/richithareddyy/ZoomLens)**: ask questions about a shared screen from a private panel inside a Zoom meeting, with opt-in accessibility modes. My fellowship project and still a development prototype. Node.js, WebSockets, FFmpeg, a vision-model API.
-- **[CodeAtlas](https://github.com/richithareddyy/CodeAtlas)**: traces what a change in a Rust repository might affect, down to code and tests, with source links behind each connection. Uncertain calls stay labeled instead of guessed, and test selection is scored against real test runs. Rust, tree-sitter, Neo4j, GraphQL, SvelteKit.
+- **[AgentVisa](https://github.com/richithareddyy/AgentVisa)** — Authorization for agent actions, with temporary contracts, shared delegation budgets, and action-specific approvals. A Python/FastAPI/SQLite prototype with simulated tools and a procurement-only intent check. [Try the sandbox](https://agentvisa.onrender.com).
+- **[ZoomLens](https://github.com/richithareddyy/ZoomLens)** — My fellowship project: questions about shared screens, screen-change announcements, and Color Assist inside Zoom. Built with Node.js, WebSockets, and FFmpeg. Still in development; live-stream integration remains unresolved.
+- **[CodeAtlas](https://github.com/richithareddyy/CodeAtlas)** — Traces a Rust code change to affected symbols and tests, with source evidence for each connection. Rust, tree-sitter, Neo4j, and SvelteKit; test selection is evaluated against actual test failures.
 
-## Models and data
+## 🌱 Models and data
 
-- **[GridCast](https://github.com/richithareddyy/GridCast)**: next-day electricity demand in New England, comparing seasonal baselines, LightGBM, and an LSTM on a held-back test year. The interesting part is where forecasts fail, since prediction intervals undercover badly during extreme demand.
-- **[CauseWay](https://github.com/richithareddyy/CauseWay)**: starts from a randomized email experiment, then removes the randomization on purpose to see which causal methods recover the true answer. Hide one confounder and all of them stay biased, even when refutation checks pass.
-- **[Reddit Data Pipeline](https://github.com/richithareddyy/reddit-data-pipeline)**: loads messy archives into PostgreSQL, keeps a reason for every rejected record, and is safe to re-run after a failure.
+- **[GridCast](https://github.com/richithareddyy/GridCast)** — Electricity-demand forecasting with chronological backtests, seasonal baselines, LightGBM, and an LSTM. Examines where forecasts and prediction intervals fail, especially during extreme demand.
+- **[CauseWay](https://github.com/richithareddyy/CauseWay)** — Introduces selection bias into a randomized email experiment to test which causal estimators recover the experimental benchmark, and what happens when a confounder is hidden.
+- **[Reddit Data Pipeline](https://github.com/richithareddyy/reddit-data-pipeline)** — Python/PostgreSQL archive loading with streaming `COPY`, set-based merges, rejection records, and tests for reruns and interrupted loads.
 
-Also: [Support Ticket Triage](https://github.com/richithareddyy/ticket-triage) (XGBoost and SHAP on synthetic tickets), [StreamBox](https://github.com/richithareddyy/ott-platform) (a streaming backend built around concurrency problems), and [Open Seat](https://github.com/richithareddyy/open-seat) (a hackathon project with Charith Kutikuppala where student agents negotiate to fill open seats).
+I also built **[Open Seat](https://github.com/richithareddyy/open-seat)** with Charith Kutikuppala for a hackathon: student agents coordinate to fill open seats in campus activities.
 
-**Tools:** Python, SQL, Rust, JavaScript/TypeScript · pandas, scikit-learn, PyTorch, LightGBM, XGBoost, SHAP, EconML · FastAPI, Flask, Node.js, SvelteKit · PostgreSQL, MongoDB, Neo4j, SQLite, Docker
+The project READMEs cover setup, design decisions, results, and limitations. [Browse all repositories →](https://github.com/richithareddyy?tab=repositories)
